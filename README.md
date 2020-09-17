@@ -23,7 +23,9 @@ Ser2IP32 is written in Multithreaded C++ with native ESP-IDF SDK in order to get
 
 ## Usage
 *Ser2IP32* has been developed and engineered to be used mainly in a [ATOM Matrix ESP32](https://m5stack.com/collections/m5-atom/products/atom-matrix-esp32-development-kit) from @m5stack as it is super small, has enough pins available and integrates a nice LED Matrix.
-<a href="https://m5stack.com/collections/m5-atom/products/atom-matrix-esp32-development-kit"> <img src="resources/atom_main.jpg" width="150" style="float:right"></a>
+
+![Atom Matrix](/resources/atom_main.jpg)
+
 However, any ESP32 flavour can be used taking into account that you may need to change UART pins and may loose LED matrix function (LED Matrix pin still not configurable).
 
 ### Flashing
