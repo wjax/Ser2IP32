@@ -26,6 +26,11 @@ Ser2IP32 is written in Multithreaded C++ with native ESP-IDF SDK in order to get
 
 ![Atom Matrix](/resources/atom_main.jpg)
 
+A video of a real example controling an Alexmos Gimbal over Wifi/TCP/IP can be watched here (click for full version):
+
+[![Ser2IP32 quick real demo](resources/blinking.gif)](https://www.youtube.com/watch?v=53T4i7SmPfA)
+
+
 However, any ESP32 flavour can be used taking into account that you may need to change UART pins and may loose LED matrix function (LED Matrix pin still not configurable).
 
 ### Flashing
